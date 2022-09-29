@@ -38,7 +38,7 @@ spec:
       # secretName: null
     config:
       capi:
-        repositoryURL: https://github.com/richardcase/mixed-mode-demo
+        repositoryURL: https://github.com/Callisto13/mixed-mode-demo
         # -- Can be changed depending on your git repo structure
         # repositoryPath: ./clusters/management/clusters
         # repositoryClustersPath: ./cluster
