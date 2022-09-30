@@ -52,11 +52,8 @@ spec:
     staticPool:
       hosts:
       - controlplaneAllowed: true
-        endpoint: 145.40.68.89:9090
-  sshPublicKeys:
-  - authorizedKeys:
-    - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILAkGdT5fjk7uNoA+bkGfSYUFnLFUolZNLNZ4x1ciDG/ claudia@weave.works
-    user: root
+        endpoint: 147.75.87.243:9090
+  sshPublicKey: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILAkGdT5fjk7uNoA+bkGfSYUFnLFUolZNLNZ4x1ciDG/ claudia@weave.works"
 
 ---
 apiVersion: controlplane.cluster.x-k8s.io/v1beta1
