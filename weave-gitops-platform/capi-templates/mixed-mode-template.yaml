@@ -29,6 +29,7 @@ spec:
     - name: CONTROL_PLANE_VIP
       required: true
       description: IP for the Kubernetes Endpoint. For demo use 192.168.10.25
+      options: ['192.168.10.25']
     - name: CONTAINER_NETWORKING
       description: Select the CNI plugin to use
       options: ['cilium']
