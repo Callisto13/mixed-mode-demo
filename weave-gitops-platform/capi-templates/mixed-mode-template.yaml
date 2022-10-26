@@ -77,7 +77,7 @@ spec:
         sshPublicKeys:
         - user: root
           authorizedKeys:
-          - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCWIkWQdEF0Wlvak13wdA/1eWtt6Ni+2YAO12O3clUo4FA7NOhBU6d56kZDLszipGEQycDtQOZP3mxK9svnQrqlwOwAPCuvLmy88BLRKDy0KwOKOTNfeFMBKoH8bdfLey6eME9LJKOOKHzZwsabH5M4R+Mr1rkAZGKOyNewzyjeFpBGM+z1am9obVWhCvoCVLG7/3aJM4cC79p/zSmjr30SxkymWFWcbgAy+RSQLMWRA9STuqf5Rt2Mn6Z6ZqzlgXb/K6XqTAfC+VpiNnfY1xrZy9G+ATu9cTiz1nkpbXzrFd3Skz8Rz3pacEDO4sENc4erMDUFmlX8jwn99kG8TGZ+yYUvLIBqsiZaEtKR3/GVkSchVNliJUBxKJgPalU/MEwDWUFPqlFjghtLmUzdAGNnZ0NU+rAx3gDjqwagXlZGPmd+SOe0JGJ1hMTLtFWKhBxKWk/r6Y1bS+/Kum5uc1QVkZMIQFlzcXsPVZf0k4TovzwByG4qBqpxGrvSHhMCDkXd4fcDusyMvxSqr+RKEuoWD8SDExNJHa/cqkW9kQCESVPO0rXz5Jd6mFjPF70vTGfghRvjFfEl8UOqggWwpCeT4NZn7r5/wER/15wY0y9oAz7xDRlMbqEWVRnuncBKSTu3bUFW2xUUQSNuMOavyxBlihoz+mapQY1Y0de8lEurcQ== richard@kraken
+          - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILAkGdT5fjk7uNoA+bkGfSYUFnLFUolZNLNZ4x1ciDG/ claudia@weave.works
         bundleLookupBaseRegistry: projects.registry.vmware.com/cluster_api_provider_bringyourownhost
         placement:
           staticPool:
